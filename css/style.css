@@ -46,25 +46,50 @@ img {
 }
 .main_menu a {
   color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
 }
 .main_menu a:hover {
-  color: coral;
-}
-.main_menu .menu {
-  margin-left: 240px;
+  color: #fff;
 }
 .main_menu .menu ul {
   gap: 35px;
+}
+.main_menu .menu ul li a {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Open Sans", sans-serif;
+}
+.main_menu .menu ul li a:hover {
+  color: coral;
 }
 /* =======================
       Menu Part End
 ========================== */
 
 /* =======================
-      Menu Part Start
+      Banner Part Start
 ========================== */
+#banner {
+  padding: 100px 0;
+}
+.banner_text {
+  padding: 60px 0;
+}
+.banner_text h1 {
+  font-size: 56px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.banner_text h2 {
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Open Sans", sans-serif;
+  padding-top: 30px;
+}
 /* =======================
-      Menu Part End
+      Banner Part End
 ========================== */
 
 /* =======================
