@@ -1,0 +1,89 @@
+* {
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  vertical-align: middle;
+}
+/* =======================
+      Common Css End
+========================== */
+
+/* =======================
+      Menu Part Start
+========================== */
+.main_menu {
+  background: #000000;
+  padding: 20px 0 !important;
+}
+.main_menu a {
+  color: #fff;
+}
+.main_menu a:hover {
+  color: coral;
+}
+.main_menu .menu {
+  margin-left: 240px;
+}
+.main_menu .menu ul {
+  gap: 35px;
+}
+/* =======================
+      Menu Part End
+========================== */
+
+/* =======================
+      Menu Part Start
+========================== */
+/* =======================
+      Menu Part End
+========================== */
+
+/* =======================
+      Menu Part Start
+========================== */
+/* =======================
+      Menu Part End
+========================== */
+
+/* =======================
+      Menu Part Start
+========================== */
+/* =======================
+      Menu Part End
+========================== */
+
+/* =======================
+      Menu Part Start
+========================== */
+/* =======================
+      Menu Part End
+========================== */
