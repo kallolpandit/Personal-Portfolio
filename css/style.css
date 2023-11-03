@@ -44,6 +44,7 @@ img {
   background: #000000;
   padding: 20px 0 !important;
 }
+
 .main_menu a {
   color: #fff;
   font-size: 36px;
@@ -56,13 +57,17 @@ img {
 .main_menu .menu ul {
   gap: 35px;
 }
+.main_menu .menu ul li .active {
+  color: #e54b4b;
+}
 .main_menu .menu ul li a {
   font-size: 18px;
-  font-weight: 400;
+  color: #fff;
+  font-weight: 600;
   font-family: "Open Sans", sans-serif;
 }
 .main_menu .menu ul li a:hover {
-  color: coral;
+  color: #e54b4b;
 }
 /* =======================
       Menu Part End
@@ -79,6 +84,7 @@ img {
 }
 .banner_text h1 {
   font-size: 56px;
+  color: #fff;
   font-weight: 600;
   font-family: "Poppins", sans-serif;
 }
@@ -92,13 +98,13 @@ img {
   /* text-align: center; */
   margin-top: 20px;
   font-size: 36px;
-  font-weight: 500;
+  font-weight: 700;
   background-image: linear-gradient(
     -225deg,
-    #231557 0%,
-    #44107a 29%,
-    #ff1361 67%,
-    #fff800 100%
+    #fa8282 0%,
+    #fabbbb 29%,
+    #df7598 67%,
+    #ce3a08 100%
   );
   background-clip: border-box;
   text-fill-color: transparent;
@@ -121,24 +127,101 @@ img {
   margin-top: 50px;
   padding: 14px 20px;
   color: #fff;
-  background: coral;
+  background: #e54b4b;
   border-radius: 15px;
-  border: 1px solid coral;
+  border: 1px solid #e54b4b;
   transition: all linear 0.3s;
 }
 .banner_text a:hover {
   background: transparent;
-  color: #000;
+  color: #e54b4b;
 }
 /* =======================
       Banner Part End
 ========================== */
 
 /* =======================
-      Menu Part Start
+      About Part Start
 ========================== */
+#about {
+  padding-top: 80px;
+}
+.border {
+  padding: 50px 0;
+  background: #000;
+}
+.about_details {
+  display: flex;
+  gap: 100px;
+}
+.about_details img {
+  width: 350px;
+  height: 450px;
+}
+.about_text {
+  /* padding-top: 58px; */
+}
+.about_text h3 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+.about_text h3 span {
+  color: #e54b4b;
+}
+.about_text p {
+  font-size: 18px;
+  font-weight: 500;
+  color: #767676;
+  letter-spacing: 1px;
+  font-family: "Open Sans", sans-serif;
+  padding: 32px 0;
+  line-height: 30px;
+}
+.about_text .web {
+  display: flex;
+  gap: 60px;
+  padding: 20px 0;
+}
+.about_text .web ul {
+  font-size: 18px;
+  font-weight: 700;
+
+  font-style: italic;
+  font-family: "Popins", sans-serif;
+}
+.about_text .web ul li a {
+  margin-bottom: 10px;
+  color: #000;
+  transition: all linear 0.3s;
+}
+.about_text .web ul li a:hover {
+  color: #e54b4b;
+}
+.about_text .web ul li a i {
+  margin-right: 10px;
+}
+.resume {
+  padding-top: 36px;
+}
+.resume a {
+  padding: 18px 36px;
+  background: #e54b4b;
+  border: 1px solid #e54b4b;
+  border-radius: 15px;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Popins", sans-serif;
+  transition: all linear 0.3s;
+}
+.resume a:hover {
+  color: #e54b4b;
+  background: transparent;
+}
 /* =======================
-      Menu Part End
+      About Part End
 ========================== */
 
 /* =======================
