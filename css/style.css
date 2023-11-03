@@ -373,13 +373,10 @@ body.tutorial {
   font-weight: 700;
   color: #fff;
   font-family: "Popins", sans-serif;
-  border-bottom: 2px solid #767676b7;
   transition: all linear 0.3s;
-  padding-bottom: 5px;
 }
 .free_details a:hover {
   color: #e54b4b;
-  border-bottom: 2px solid #fff;
 }
 
 /* =======================
