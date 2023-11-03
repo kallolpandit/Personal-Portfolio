@@ -36,6 +36,56 @@ img {
 /* =======================
       Common Css End
 ========================== */
+body.tutorial {
+  --color-text: #fff;
+  --color-bg: #171717;
+  --color-link: #ff0000;
+  background-color: smoke;
+}
+.credits {
+  position: absolute;
+  bottom: 20px;
+}
+.page {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.page__inner {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+.cursor {
+  position: fixed;
+  left: 0;
+  top: 0;
+  pointer-events: none;
+}
+.cursor--small {
+  width: 8px;
+  height: 8px;
+  left: -2.5px;
+  top: -2.5px;
+  border-radius: 50%;
+  z-index: 11000;
+  background: #e54b4b;
+}
+.cursor--canvas {
+  width: 100vw;
+  height: 100vh;
+  z-index: 12000;
+}
+.page,
+.page a {
+  cursor: none;
+}
+/* ==========mouse Move============*/
+
+/* ==========mouse Move============*/
 
 /* =======================
       Menu Part Start
@@ -336,16 +386,151 @@ img {
     Freelance Part End
 ========================== */
 /* =======================
-      Menu Part Start
+      Contact Part Start
+========================== */
+#contact {
+  padding: 110px 0;
+}
+.cont_details {
+  display: flex;
+  justify-content: space-between;
+}
+.cont_text {
+  width: 45%;
+}
+.cont_text h3 {
+  font-size: 30px;
+  font-weight: 700;
+  color: #000;
+  font-family: "Popins", sans-serif;
+  text-transform: capitalize;
+}
+.cont_text h3 span {
+  color: #e54b4b;
+}
+.cont_text p {
+  font-size: 18px;
+  font-weight: 400;
+  color: #767676;
+  font-family: "Open Sans", sans-serif;
+  padding: 36px 0;
+}
+.cont_text ul li {
+  padding-bottom: 18px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000;
+  font-family: "Open Sans", sans-serif;
+}
+.cont_text ul li i {
+  margin-right: 10px;
+}
+.cont_text ul li span,
+a {
+  color: #767676;
+  padding-left: 16px;
+  transition: all linear 0.3s;
+}
+.cont_text ul li a:hover {
+  color: #e54b4b;
+}
+.cont_form {
+  width: 45%;
+}
+.cont_form form {
+  margin-top: 75px;
+}
+input[type="text"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+input[type="email"],
+select,
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #e54b4b;
+  color: white;
+  padding: 12px 20px;
+  border: 1px solid #e54b4b;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all linear 0.3s;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Popins", sans-serif;
+}
+
+input[type="submit"]:hover {
+  background-color: transparent;
+  color: #e54b4b;
+}
+
+/* =======================
+      Contact Part End
 ========================== */
 /* =======================
-      Menu Part End
+      Footer Part Start
 ========================== */
+/* waves */
+#footer {
+  background: url(/images/footer.png);
+  padding: 80px 0;
+}
+
+.footer_text {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 20px;
+}
+.logo a {
+  color: #fff;
+  font-size: 36px;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+}
+.footer_text ul {
+  display: flex;
+  gap: 10px;
+}
+.footer_text ul li a {
+  font-size: 24px;
+  color: #fff;
+  transition: all linear 0.3s;
+}
+.footer_text ul li a:hover {
+  color: #e54b4b;
+}
+.footer_text p {
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+.footer_text p span {
+  color: #e54b4b;
+}
 /* =======================
-      Menu Part Start
-========================== */
-/* =======================
-      Menu Part End
+      Footer Part End
 ========================== */
 /* =======================
       Menu Part Start
