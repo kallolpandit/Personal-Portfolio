@@ -1,3 +1,37 @@
+let main_menu = document.querySelector(".main_menu");
+
+let menu_height = main_menu.clientHeight;
+
+window.addEventListener("scroll", function () {
+  let scrolling = this.scrollY;
+
+  if (scrolling > menu_height + 40) {
+    main_menu.classList.add("menu_fixed");
+  } else {
+    main_menu.classList.remove("menu_fixed");
+  }
+});
+// ===========Menu Fixed===============
+
+let backtotop = document.querySelector(".backtotop");
+
+window.addEventListener("scroll", () => {
+  let scrolling = this.scrollY;
+  if (scrolling > 300) {
+    backtotop.classList.add("show");
+  } else {
+    backtotop.classList.remove("show");
+  }
+});
+
+backtotop.addEventListener("click", () => {
+  window.scrollTo({
+    top: 0,
+    behavior: "smooth",
+  });
+});
+// ===========Back To Top===============
+
 var app = document.getElementById("app");
 
 var typewriter = new Typewriter(app, {

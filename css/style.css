@@ -33,6 +33,34 @@ img {
   max-width: 100%;
   vertical-align: middle;
 }
+.backtotop {
+  padding: 10px;
+  border-radius: 50%;
+  border: none;
+  position: fixed;
+  bottom: 10%;
+  right: 25px;
+  z-index: 99;
+  background: #e54b4b;
+  color: #fff;
+  visibility: hidden;
+  opacity: 0;
+}
+.backtotop.show {
+  animation: backtop 1s;
+  visibility: visible;
+  opacity: 1;
+}
+
+@keyframes backtop {
+  from {
+    bottom: -40%;
+  }
+
+  to {
+    bottom: 10%;
+  }
+}
 /* =======================
       Common Css End
 ========================== */
@@ -93,6 +121,27 @@ body.tutorial {
 .main_menu {
   background: #000000;
   padding: 20px 0 !important;
+}
+
+.menu_fixed {
+  padding: 10px 0 !important;
+  background: #000000b7;
+  width: 100%;
+  position: sticky;
+  top: 0%;
+  left: 0;
+  z-index: 999;
+  box-shadow: rgba(0, 0, 0, 0.04) 0px 3px 5px;
+  animation: menu_fixing 0.5s;
+}
+@keyframes menu_fixing {
+  from {
+    transform: translateY(-100%);
+  }
+
+  to {
+    transform: translateY(0%);
+  }
 }
 
 .main_menu a {
@@ -205,14 +254,13 @@ body.tutorial {
 .about_details {
   display: flex;
   gap: 100px;
+  /* flex-wrap: wrap; */
 }
 .about_details img {
   width: 350px;
   height: 450px;
 }
-.about_text {
-  /* padding-top: 58px; */
-}
+
 .about_text h3 {
   font-size: 30px;
   color: #000;

@@ -17,6 +17,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
     rel="stylesheet" />
   <link rel="stylesheet" href="css/style.css" />
+  <link rel="stylesheet" href="css/responsive.css">
 </head>
 
 <body class="tutorial">
@@ -65,7 +66,8 @@
   <!-- ===========================
            Menu Part End
 ================================= -->
-
+<!-- ========Back To Top======== -->
+<button class="backtotop"><i class="fa-solid fa-arrow-up"></i></button>
   <!-- ===========================
            Banner Part Start
 ================================= -->
@@ -74,10 +76,14 @@
         background-size: cover;
       ">
     <div class="container">
-      <div class="banner_text">
-        <h1>Kallol Pandit</h1>
-        <!-- <h2>Web Designer & Front-End Developer</h2> -->
-        <div id="app"></div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="banner_text">
+            <h1>Kallol Pandit</h1>
+            <!-- <h2>Web Designer & Front-End Developer</h2> -->
+            <div id="app"></div>
+          </div>
+        </div>
       </div>
     </div>
   </section>
@@ -90,41 +96,45 @@
 ================================= -->
   <section id="about">
     <div class="container">
-      <div class="about_details">
-        <img src="images/Kallol_Pandit.jpg" alt="Kallol" />
-        <div class="about_text">
-          <h3>About <span>Me</span></h3>
-          <p>
-            Hello! I'm Kallol Pandit. I'm a web designer, and I'm very
-            passionate and dedicated to my work. I have acquired the skills
-            and knowledge necessary to make your project a success. I enjoy
-            every step of the design process, from discussion and
-            collaboration.
-          </p>
-          <div class="web">
-            <ul>
-              <li>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i> Front-End
-                  Development</a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i> Front-End
-                  Development</a>
-              </li>
-            </ul>
-            <ul>
-              <li>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i></i> Web
-                  Design</a>
-              </li>
-              <li>
-                <a href="#"><i class="fa-solid fa-chevron-right"></i> Web
-                  Design</a>
-              </li>
-            </ul>
-          </div>
-          <div class="resume">
-            <a href="/resume/Kallol Pandit .pdf" download="Kallol Pandit.pdf">Download Resume</a>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="about_details">
+            <img src="images/Kallol_Pandit.jpg" alt="Kallol" />
+            <div class="about_text">
+              <h3>About <span>Me</span></h3>
+              <p>
+                Hello! I'm Kallol Pandit. I'm a web designer, and I'm very
+                passionate and dedicated to my work. I have acquired the skills
+                and knowledge necessary to make your project a success. I enjoy
+                every step of the design process, from discussion and
+                collaboration.
+              </p>
+              <div class="web">
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i> Front-End
+                      Development</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i> Front-End
+                      Development</a>
+                  </li>
+                </ul>
+                <ul>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i></i> Web
+                      Design</a>
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa-solid fa-chevron-right"></i> Web
+                      Design</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="resume">
+                <a href="/resume/Kallol Pandit .pdf" download="Kallol Pandit.pdf">Download Resume</a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -140,93 +150,95 @@
 ================================= -->
   <section id="portfolio">
     <div class="container">
-      <div class="port_details">
-        <div class="port_text">
-          <h2>I have high skills in developing and programming</h2>
-          <p>I was doing everything in my power to provide me with all the experiences to provide cost-effective and
-            high quality service to satisfy my customers all over the world</p>
-        </div>
-        <div class="skills_details">
-          <div class="port_skill">
-            <div class="skills_items">
-              <div class="skills">
-                <p>HTML5</p>
-              </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="port_details">
+            <div class="port_text">
+              <h2>I have high skills in developing and programming</h2>
+              <p>I was doing everything in my power to provide me with all the experiences to provide cost-effective and
+                high quality service to satisfy my customers all over the world</p>
             </div>
-            <div class="skills_items">
-              <div class="skills">
-                <p>CSS</p>
+            <div class="skills_details">
+              <div class="port_skill">
+                <div class="skills_items">
+                  <div class="skills">
+                    <p>HTML5</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 95%;" aria-valuenow="95" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="skills_items">
+                  <div class="skills">
+                    <p>CSS</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="80" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="skills_items">
+                  <div class="skills">
+                    <p>JavaScript</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="60" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="skills_items">
+                  <div class="skills">
+                    <p>BootStarp</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
               </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 85%;" aria-valuenow="80" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skills_items">
-              <div class="skills">
-                <p>JavaScript</p>
-              </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 70%;" aria-valuenow="60" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skills_items">
-              <div class="skills">
-                <p>BootStarp</p>
-              </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
-                  aria-valuemax="100"></div>
+              <div class="port_skill">
+                <div class="skills_items">
+                  <div class="skills">
+                    <p>jQuery</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="skills_items">
+                  <div class="skills">
+                    <p> SASS</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="skills_items">
+                  <div class="skills">
+                    <p> Tailwind CSS</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="skills_items">
+                  <div class="skills">
+                    <p> React</p>
+                  </div>
+                  <div class="progress">
+                    <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0"
+                      aria-valuemax="100"></div>
+                  </div>
+                </div>
               </div>
             </div>
           </div>
-          <div class="port_skill">
-            <div class="skills_items">
-              <div class="skills">
-                <p>jQuery</p>
-              </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skills_items">
-              <div class="skills">
-                <p> SASS</p>
-              </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skills_items">
-              <div class="skills">
-                <p> Tailwind CSS</p>
-              </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 75%;" aria-valuenow="75" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-            <div class="skills_items">
-              <div class="skills">
-                <p> React</p>
-              </div>
-              <div class="progress">
-                <div class="progress-bar" role="progressbar" style="width: 55%;" aria-valuenow="55" aria-valuemin="0"
-                  aria-valuemax="100"></div>
-              </div>
-            </div>
-          </div>
         </div>
-
       </div>
-
     </div>
   </section>
   <!-- ===========================
@@ -238,11 +250,14 @@
 ================================= -->
   <section id="freelance">
     <div class="container">
-      <div class="free_details">
-        <h3 id="free"></h3>
-        <a href="#">Contact Me</a>
-
-      </div>
+      <!-- <div class="row"> -->
+        <!-- <div class="col-lg-12"> -->
+          <div class="free_details">
+            <h3 id="free"></h3>
+            <a href="#">Contact Me</a>
+          </div>
+        <!-- </div> -->
+      <!-- </div> -->
     </div>
   </section>
   <!-- ===========================
@@ -254,33 +269,37 @@
 ================================= -->
   <section id="contact">
     <div class="container">
-      <div class="cont_details">
-        <div class="cont_text">
-          <h3>Get in <span>Touch</span></h3>
-          <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m.
-            Monday through Friday.</p>
-          <ul>
-            <li><i class="fa-solid fa-location-dot"></i> Address: <span>Tangail, Dhaka, Bangladesh</span> </li>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="cont_details">
+            <div class="cont_text">
+              <h3>Get in <span>Touch</span></h3>
+              <p>Please fill out the form on this section to contact with me. Or call between 9:00 a.m. and 8:00 p.m.
+                Monday through Friday.</p>
+              <ul>
+                <li><i class="fa-solid fa-location-dot"></i> Address: <span>Tangail, Dhaka, Bangladesh</span> </li>
 
-            <li><i class="fa-solid fa-envelope"></i> Email: <a
-                href="mailto:kallolpandit466@gmail.com">kallolpandit466@gmail.com</a> </li>
+                <li><i class="fa-solid fa-envelope"></i> Email: <a
+                    href="mailto:kallolpandit466@gmail.com">kallolpandit466@gmail.com</a> </li>
 
-            <li><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+8801765703895">+8801765703895</a> </li>
+                <li><i class="fa-solid fa-phone"></i> Phone: <a href="tel:+8801765703895">+8801765703895</a> </li>
 
-            <li><i class="fa-brands fa-linkedin"></i>LinkedIn: <a href="https://www.linkedin.com/in/kallolpandit/"
-                target="_blank">https://www.linkedin.com/in/kallolpandit/</a> </li>
+                <li><i class="fa-brands fa-linkedin"></i>LinkedIn: <a href="https://www.linkedin.com/in/kallolpandit/"
+                    target="_blank">https://www.linkedin.com/in/kallolpandit/</a> </li>
 
-            <li><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/kallolpandit"
-                target="_blank">https://github.com/kallolpandit</a> </li>
-          </ul>
-        </div>
-        <div class="cont_form">
-          <form action="/action_page.php">
-            <input type="text" id="fname" name="firstname" placeholder="Name">
-            <input type="email" id="lname" placeholder="Email">
-            <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
-            <input type="submit" value="Send Message">
-          </form>
+                <li><i class="fa-brands fa-github"></i> GitHub: <a href="https://github.com/kallolpandit"
+                    target="_blank">https://github.com/kallolpandit</a> </li>
+              </ul>
+            </div>
+            <div class="cont_form">
+              <form action="/action_page.php">
+                <input type="text" id="fname" name="firstname" placeholder="Name">
+                <input type="email" id="lname" placeholder="Email">
+                <textarea id="subject" name="subject" placeholder="Message" style="height:200px"></textarea>
+                <input type="submit" value="Send Message">
+              </form>
+            </div>
+          </div>
         </div>
       </div>
     </div>
@@ -294,23 +313,24 @@
 ================================= -->
   <footer id="footer">
     <div class="container">
-      <div class="ocean">
-        <div class="wave">
+      <div class="row">
+        <div class="col-lg-12">
           <div class="footer_text">
             <div class="logo">
               <a href="#">Kallol.</a>
             </div>
             <ul>
-              <li><a href="https://www.facebook.com/profile.php?id=100003923992637" target="_blank"><i class="fa-brands fa-facebook"></i></a></li>
-              <li><a href="https://www.linkedin.com/in/kallolpandit/" target="_blank"><i class="fa-brands fa-linkedin"></i></a></li>
+              <li><a href="https://www.facebook.com/profile.php?id=100003923992637" target="_blank"><i
+                    class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="https://www.linkedin.com/in/kallolpandit/" target="_blank"><i
+                    class="fa-brands fa-linkedin"></i></a></li>
               <li><a href="https://github.com/kallolpandit" target="_blank"><i class="fa-brands fa-github"></i></a></li>
-              <li><a href="https://www.instagram.com/kallol_pandit/" target="_blank"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="https://www.instagram.com/kallol_pandit/" target="_blank"><i
+                    class="fa-brands fa-instagram"></i></a></li>
             </ul>
             <p>Copyright © 2023 - All right reserved by <span>Kallol Pandit</span></p>
           </div>
-
         </div>
-
       </div>
     </div>
   </footer>
