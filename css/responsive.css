@@ -11,6 +11,13 @@
 @media (min-width: 576px) and (max-width: 767.98px) {
 }
 @media (max-width: 575.98px) {
+  /* ===========Back To Top============= */
+  .backtotop {
+    padding: 8px;
+    bottom: 8%;
+    right: 20px;
+  }
+  /* ===========Back To Top============= */
   /* =======================
       Menu Part Start
 ========================== */
@@ -31,6 +38,9 @@
       Banner Part Start
 ========================== */
   #banner {
+    padding: 50px 0;
+  }
+  .banner_text {
     padding: 50px 0;
   }
   .banner_text h1 {
@@ -91,30 +101,118 @@
 ========================== */
 
   /* =======================
-      Menu Part Start
+      Portfolio Part Start
 ========================== */
+  #portfolio {
+    padding: 50px 0;
+  }
+  .port_details .port_text h2 {
+    font-size: 20px;
+  }
+  .port_details .port_text p {
+    font-size: 14px;
+    padding-top: 24px;
+    width: 100%;
+  }
+  .skills p {
+    font-size: 14px;
+    padding-bottom: 12px;
+  }
   /* =======================
-      Menu Part End
+      Portfolio Part End
 ========================== */
 
   /* =======================
-      Menu Part Start
+    Freelance Part Start
 ========================== */
+  #freelance {
+    padding: 50px 0;
+  }
+  #free {
+    font-size: 12px;
+  }
+  .free_details a {
+    font-size: 12px;
+  }
   /* =======================
-      Menu Part End
+    Freelance Part End
 ========================== */
 
   /* =======================
-      Menu Part Start
+      Contact Part Start
 ========================== */
+  #contact {
+    padding: 50px 0;
+  }
+  .cont_details {
+    flex-direction: column;
+  }
+  .cont_text {
+    width: 100%;
+  }
+  .cont_text h3 {
+    font-size: 26px;
+  }
+  .cont_text p {
+    font-size: 14px;
+    padding: 26px 0;
+  }
+  .cont_text ul li {
+    font-size: 11px;
+  }
+  .cont_text ul li i {
+    margin-right: 5px;
+  }
+  .cont_text ul li span,
+  a {
+    padding-left: 5px;
+  }
+  .cont_form {
+    width: 100%;
+  }
+  .cont_form form {
+    margin-top: 24px;
+  }
+  input[type="text"],
+  select,
+  textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  input[type="email"],
+  select,
+  textarea {
+    padding: 8px;
+    margin-bottom: 12px;
+  }
+  input[type="submit"] {
+    padding: 8px 16px;
+  }
   /* =======================
-      Menu Part End
+      Contact Part End
 ========================== */
 
   /* =======================
-      Menu Part Start
+      Footer Part Start
 ========================== */
+  #footer {
+    padding: 60px 0 20px;
+  }
+  .footer_text {
+    flex-direction: column;
+    gap: 10px;
+  }
+  .logo a {
+    font-size: 26px;
+  }
+  .footer_text ul li a {
+    font-size: 18px;
+  }
+  .footer_text p {
+    font-size: 10px;
+    text-align: center;
+  }
   /* =======================
-      Menu Part End
+      Footer Part End
 ========================== */
 }
