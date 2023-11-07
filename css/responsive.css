@@ -459,10 +459,25 @@ Freelance Part End
     text-align: center;
     padding-top: 10px;
   }
+<<<<<<< HEAD
   .main_menu .navbar-toggler {
     border: 0;
     color: #fff;
   }
+=======
+    .main_menu .navbar-toggler {
+    border: 0;
+    color: #fff;
+  }
+
+  .main_menu .navbar-toggler:focus {
+    box-shadow: none;
+  }
+
+  .main_menu .navbar-toggler {
+    border: 0;
+  }
+>>>>>>> 5f344794e94c5db05c5a41f8fb121e82d5fa62de
 
   .main_menu .navbar-toggler:focus {
     box-shadow: none;
