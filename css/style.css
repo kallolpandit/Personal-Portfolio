@@ -303,7 +303,7 @@ body.tutorial {
   margin-right: 10px;
 }
 .resume {
-  padding-top: 26px;
+  padding: 26px 0;
 }
 .resume a {
   padding: 16px 34px;
@@ -328,7 +328,7 @@ body.tutorial {
       Portfolio Part Start
 ========================== */
 #portfolio {
-  padding: 100px 0;
+  padding: 80px 0;
 }
 /* .port_details {
   display: flex;
@@ -537,14 +537,20 @@ input[type="submit"]:hover {
 /* waves */
 #footer {
   background: url(/images/footer.png);
-  padding: 80px 0;
+  padding-top: 80px;
 }
 
-.footer_text {
+/* .footer_text {
   display: flex;
   justify-content: space-between;
   align-items: center;
   padding-top: 20px;
+} */
+.footer_text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 26px;
 }
 .logo a {
   color: #fff;
