@@ -230,6 +230,13 @@ Freelance Part End
 ========================== */
 }
 @media (min-width: 576px) and (max-width: 767.98px) {
+  /* ===========Back To Top============= */
+  /* .backtotop {
+    padding: 8px;
+    bottom: 8%;
+    right: 20px;
+  } */
+  /* ===========Back To Top============= */
   /* =======================
       Menu Part Start
 ========================== */
@@ -442,11 +449,11 @@ Freelance Part End
 }
 @media (max-width: 575.98px) {
   /* ===========Back To Top============= */
-  .backtotop {
+  /* .backtotop {
     padding: 8px;
     bottom: 8%;
-    right: 20px;
-  }
+    right: 20px; */
+
   /* ===========Back To Top============= */
   /* =======================
       Menu Part Start
