@@ -46,6 +46,10 @@ img {
   color: #fff;
   visibility: hidden;
   opacity: 0;
+  transition: all linear 0.3s;
+}
+.backtotop:hover {
+  background: #fd0054;
 }
 .backtotop.show {
   animation: backtop 1s;
