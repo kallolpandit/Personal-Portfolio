@@ -60,7 +60,7 @@ typewriter
   .start();
 // * ===========freelance part end===========
 
-// *=============Mouse Move==================
+// *=============Mouse Move Start==================
 // set the starting position of the cursor outside of the screen
 let clientX = 100;
 let clientY = 100;
@@ -154,4 +154,11 @@ const initCanvas = () => {
 };
 
 initCanvas();
-// *=============Mouse Move==================
+// *=============Mouse Move End==================
+
+// *=============Page Loader Start==================
+let preloader = document.querySelector("#preloader");
+window.addEventListener("load", () => {
+  preloader.style = "display: none;";
+});
+// *=============Page Loader End==================
