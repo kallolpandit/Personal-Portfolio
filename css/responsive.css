@@ -448,13 +448,6 @@ Freelance Part End
 ========================== */
 }
 @media (max-width: 575.98px) {
-  /* ===========Back To Top============= */
-  /* .backtotop {
-    padding: 8px;
-    bottom: 8%;
-    right: 20px; */
-
-  /* ===========Back To Top============= */
   /* =======================
       Menu Part Start
 ========================== */
@@ -592,6 +585,48 @@ Freelance Part End
   }
   /* =======================
     Freelance Part End
+========================== */
+
+  /* =======================
+    Service Part Start
+========================== */
+  #service {
+    padding: 50px 0;
+  }
+  .service_text h3 {
+    font-size: 18px;
+    color: #000;
+    font-weight: 700;
+    font-family: "Poppins", sans-serif;
+  }
+  .service_text a {
+    font-size: 14px;
+  }
+  .project_items {
+    margin-top: 40px;
+  }
+  .project_text h4 {
+    font-size: 18px;
+  }
+  .project_text ul {
+    gap: 12px;
+  }
+  .project_text ul li {
+    font-size: 12px;
+  }
+  .project_text h5 {
+    font-size: 16px;
+  }
+  .project_text p {
+    font-size: 14px;
+    padding: 20px 0;
+  }
+  .site a {
+    padding: 8px 16px;
+    font-size: 12px;
+  }
+  /* =======================
+    Service Part End
 ========================== */
 
   /* =======================

@@ -613,9 +613,7 @@ body.tutorial {
 .project_items img {
   border-radius: 5px;
 }
-.project_text {
-  /* text-align: center; */
-}
+
 .project_text h4 {
   font-size: 24px;
   color: #000;
@@ -649,7 +647,7 @@ body.tutorial {
   color: #767676;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  padding: 20px 0;
+  padding: 25px 0;
 }
 .site {
   display: flex;
