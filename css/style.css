@@ -605,7 +605,7 @@ body.tutorial {
   padding: 15px;
   border-radius: 5px;
   box-shadow: rgba(0, 0, 0, 0.05) 0px 0px 0px 1px;
-  transition: all linear 0.3s;
+  transition: all linear 0.3s !important;
 }
 .project_items:hover {
   box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
@@ -656,13 +656,13 @@ body.tutorial {
 }
 .site a {
   padding: 8px 18px;
-  background: #fd0054;
+  background: #e54b4b;
   border-radius: 10px;
   font-size: 16px;
   color: #fff;
   font-weight: 400;
   font-family: "Open Sans", sans-serif;
-  transition: all linear 0.3s;
+  transition: all linear 0.3s !important;
 }
 .site a:hover {
   background: #0c090a;
