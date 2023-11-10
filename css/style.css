@@ -567,6 +567,24 @@ body.tutorial {
 /* =======================
     Freelance Part End
 ========================== */
+
+/* =======================
+    Service Part Start
+========================== */
+#service {
+  padding: 80px 0;
+  background: #fafaee;
+}
+.service_text h3 {
+  font-size: 30px;
+  color: #000;
+  font-weight: 700;
+  font-family: "Poppins", sans-serif;
+}
+/* =======================
+    Service Part End
+========================== */
+
 /* =======================
       Contact Part Start
 ========================== */
